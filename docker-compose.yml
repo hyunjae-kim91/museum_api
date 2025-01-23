@@ -1,0 +1,35 @@
+networks:
+  app-network:
+    name : app-network
+    driver: bridge
+
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: ./nginx/Dockerfile
+    container_name: nginx
+    ports:
+      - "80:80"
+    networks:
+      - app-network
+
+  aihr_api-blue:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: aihr_api-blue
+    ports:
+      - "8001:8000"  # Blue 서비스의 내부 포트는 8000, 외부 포트는 8001
+    networks:
+      - app-network  # Blue 컨테이너를 app-network에 연결
+
+  aihr_api-green:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: aihr_api-green
+    ports:
+      - "8002:8000"  # Green 서비스의 내부 포트는 8000, 외부 포트는 8002
+    networks:
+      - app-network  # Green 컨테이너를 app-network에 연결
