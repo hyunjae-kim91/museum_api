@@ -9,12 +9,7 @@
             "item_type": "Collectible",
             "overview_raw": "Circa 1981 Pete Rose Autographed Mizuno Pro Model Bat Baseball Pete Rose Bat"
         },
-        "answer": {
-            "subject_ko": "1981년경 피트 로즈 서명 미즈노 프로 모델 배트",
-            "subject_en": "Circa 1981 Pete Rose Autographed Mizuno Pro Model Bat",
-            "overview_ko": "이 소장품은 1981년 피트 로즈가 서명한 미즈노 프로 모델 배트로, 수집 가치가 높은 아이템입니다.",
-            "overview_en": "This collectible is a circa 1981 Mizuno Pro Model Bat autographed by Pete Rose, making it a highly valuable item."
-        }            
+        "answer": "[subject_ko] : 1981년경 피트 로즈 서명 미즈노 프로 모델 배트 | [subject_en] : Circa 1981 Pete Rose Autographed Mizuno Pro Model Bat | [overview_ko] : 이 소장품은 1981년 피트 로즈가 서명한 미즈노 프로 모델 배트로, 수집 가치가 높은 아이템입니다. | [overview_en] : This collectible is a circa 1981 Mizuno Pro Model Bat autographed by Pete Rose, making it a highly valuable item." 
     },
     {
         "question": {
@@ -26,11 +21,6 @@
             "item_type": "Bat",
             "overview_raw": "A 34', 32.5 oz. Louisville Slugger bat produced during the 2002 labeling period and used by Vladimir Guerrero. The H238' model lumber is uncracked and shows ball marks and ball stitch impressions on the right, left and back barrel. Blue, red and black rack streaks are also visible. A light coat of pine tar adorns the handle. Guerrero's number '27' is on the knob in black marker. Moderate game use. LOA from PSA DNA"
         },
-        "answer": {
-            "subject_ko": "2002년, Vladimir Guerrero의 게임 사용 배트",
-            "subject_en": "Vladimir Guerrero's game-used bat from 2002",
-            "overview_ko": "이 배트는 2002년 동안 Vladimir Guerrero가 사용한 34인치, 32.5온스의 Louisville Slugger입니다. 배트는 공자국과 스티치 자국이 있으며, 핀타르가 손잡이에 가볍게 발라져 있습니다. Guerrero의 번호 '27'이 검은 마커로 노브에 적혀 있습니다.",
-            "overview_en": "This bat is a 34-inch, 32.5-ounce Louisville Slugger used by Vladimir Guerrero during the 2002 season. The bat features ball marks and stitch impressions, with light pine tar applied to the handle. Guerrero's number '27' is written on the knob in black marker."
-        }
+        "answer": "[subject_ko] : 2002년, Vladimir Guerrero의 게임 사용 배트 | [subject_en] : Vladimir Guerrero's game-used bat from 2002 | [overview_ko] : 이 배트는 2002년 동안 Vladimir Guerrero가 사용한 34인치, 32.5온스의 Louisville Slugger입니다. 배트는 공자국과 스티치 자국이 있으며, 핀타르가 손잡이에 가볍게 발라져 있습니다. Guerrero의 번호 '27'이 검은 마커로 노브에 적혀 있습니다. | [overview_en] : This bat is a 34-inch, 32.5-ounce Louisville Slugger used by Vladimir Guerrero during the 2002 season. The bat features ball marks and stitch impressions, with light pine tar applied to the handle. Guerrero's number '27' is written on the knob in black marker"
     }
 ]

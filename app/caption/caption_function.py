@@ -23,7 +23,12 @@ class ShortCaptionProcessor:
 
     def get_short_caption(self, request: ShortCaptionInputModel):
         result = self.chat_processor.chat_short_caption(request=request)
-        if type(result.content)!=dict:
-            result = result.content.replace("'", '"')
-            result = json.loads(result)
-        return result
+        result_dict = {}
+        result_content = result.content
+        result_list = result_content.split('|')
+        for res in result_list:
+            key, value = res.split(':')
+            key = key.replace('[','').replace(']','').strip()
+            value = value.strip()
+            result_dict[key] = value
+        return result_dict
