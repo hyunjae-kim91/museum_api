@@ -1,11 +1,8 @@
 import json
 
-from app.utils.logger_utils import Logger
 from app.engine.chat_completion import chatCompletion
 from app.engine.chat_function import PromptManager, ChatProcessor
 from app.models.model import ShortCaptionInputModel
-
-LOGGER = Logger(log_type='model_infer')
 
 class ShortCaptionProcessor:
 
